@@ -10,10 +10,35 @@ authors = [
   {name = "Tridibesh Sarkar", email = "tridibeshsarkar07@gmail.com"}
 ]
 readme = "README.md"
+license = {text = "MIT"}
 requires-python = ">=3.9"
 dependencies = [
     "numpy>=1.24"
 ]
+keywords = [
+    "deep learning",
+    "neural network",
+    "machine learning",
+    "numpy",
+    "from scratch",
+    "educational",
+]
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Intended Audience :: Education",
+    "Intended Audience :: Science/Research",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Topic :: Scientific/Engineering :: Artificial Intelligence",
+    "Topic :: Education",
+]
+
+[project.urls]
+"Source Code" = "https://github.com/tridibesh9/scratch3dnn"
 
 [tool.setuptools.packages.find]
 where = ["src"]
