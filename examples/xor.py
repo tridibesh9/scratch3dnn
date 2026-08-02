@@ -1,5 +1,5 @@
 import numpy as np
-from scratchnn import *
+from scratch3dnn import *
 
 model = NeuralNet(
     Layer(2, 4),
